@@ -7,8 +7,8 @@
     #1: Đối với vòng lặp:
         # while i < n: n lần
         # i = i + 1: 2n lần
-        # Input càng lớn thì số lần lặp càng nhiều, với vòng lặp while trên thì số lần lặp là n
-        # Ví dụ: n = 10, số lần lặp là 10 lần, với i chạy từ 0 - 9 (i = 10 sẽ dừng và không chạy nữa do không thoả mãn điều kiện của vòng lặp while)
+        # Input càng lớn thì số lần lặp càng nhiều, với vòng lặp while trên thì tổng số lần lặp của toàn bộ các dòng lệnh là : 1 + 3n
+        # Ví dụ: n = 10, số lần lặp là: 1 + 3*10 = 31 lần thực thi
     #2: Đối với đệ quy:
         # Đệ quy bản chất là 1 hàm gọi lại chính nó bên trong hàm đó
         # Điều kiện dừng trong đệ quy dùng để thoát vòng lặp, nếu không có điều kiện dừng đệ quy thì nó sẽ lặp vô tận
